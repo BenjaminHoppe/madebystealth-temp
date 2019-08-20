@@ -32,7 +32,7 @@ body {
 h1 {
   font-family: 'Gotham';
   font-weight: normal;
-  font-size: 2.5em;
+  font-size: 32px;
 }
 
 a {
@@ -41,9 +41,10 @@ a {
   text-decoration: none;
   color: white;
   position: absolute;
-  bottom: 7vh;
+  bottom: 8vh;
   transition: opacity 0.4s;
   cursor: pointer;
+  size: 16px;
 }
 
 a:hover {
@@ -52,10 +53,7 @@ a:hover {
 }
 
 
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 
-   h1 {
-     font-size: 1.7em;
-   }
 
 }
